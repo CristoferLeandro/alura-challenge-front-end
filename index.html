@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <title>Desafio Front-End Alura</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="" class="cabecalho__link-logo">
+            <img src="./assets/img/logo-plataforma.png" alt="Alura Dev" class="cabecalho__imagem-logo">
+        </a>
+        <form action="">
+            <input type="text" placeholder="Busque por algo...">
+        </form>
+        <div class="cabecalho__usuario">
+            <img src="./assets/img/usuario-cristofer.jpg" alt="Cristofer" class="cabecalho__usuario--foto">
+            <p class="cabecalho__usuario--nome">Cristofer</p>
+        </div>
+    </header>
+
+    <main class="corpo">
+        <nav class="navegacao">
+            <h2 class="navegacao__titulo">Menu</h2>
+            <ul class="navegacao__lista">
+                <a href="" class="navegacao__lista--link">
+                    <li class="navegacao__lista--item"><img src="" alt="" class="navegacao__lista--icone">Editor de código</li>
+                </a><a href="" class="navegacao__lista--link">
+                    <li class="navegacao__lista--item"><img src="" alt="" class="navegacao__lista--icone">Comunidade</li>
+                </a>
+            </ul>
+        </nav>
+
+        <div class="editor-de-codigo">
+            <form action="">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </form>
+            <button>Visualizar com o highlight</button>
+        </div>
+
+        <form action="">
+            <div class="seu-projeto">
+                <h3 class="seu-projeto__titulo">Seu projeto</h3>
+                <input type="text" placeholder="Nome do seu projeto">
+                <input type="text" placeholder="Descrição do seu projeto">
+            </div>
+            <div class="personalizacao">
+                <h3 class="personalizacao__titulo">Personalização</h3>
+                <input list="languages">
+                <datalist id="languages">
+                    <option value="HTML"></option>
+                    <option value="CSS"></option>
+                    <option value="JavaScript"></option>
+                </datalist>
+                <input type="color">
+            </div>
+            <input type="submit" value="Salvar projeto" class="salvar-projeto">
+        </form>
+    </main>
+</body>
+</html>
