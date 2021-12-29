@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+:root{
+    --fonte-principal: 'Inter', sans-serif;
+
+    --fundo: #051D3B;
+    --cor-input: #FFFFFF29;
+    --fonte-geral: #ffffff;
+    --editor-de-codigo: #141414;
+
+}
+
+body{
+    background-color: var(--fundo);
+    font-family: var(--fonte-principal);
+    padding: 32px;
+    color: var(--fonte-geral);
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+::placeholder{
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 64%;
+}

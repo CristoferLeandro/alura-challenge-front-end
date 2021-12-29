@@ -1,0 +1,37 @@
+.navegacao{
+    height: 146px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navegacao__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navegacao__item--icone{
+    width: 20px;
+    border-radius: 16px;
+}
+
+.vetor__editor-de-codigo{
+    padding: 16px 14px;
+    background: #5081FB;
+
+}
+.vetor__comunidade{
+    padding: 17px 14px;
+    background: #5081FB29;
+}
+
+.navegacao__item--link{
+    margin-left: 16px;
+    text-decoration: none;
+    color: var(--fonte-geral);
+}
+
+.link__comunidade{
+    opacity: 0.56;
+}

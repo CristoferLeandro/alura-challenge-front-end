@@ -1,0 +1,20 @@
+.corpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navegacao__titulo, .seu-projeto__titulo, .personalizacao__titulo{
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 18px;
+    letter-spacing: .4em;
+}
+
+.navegacao, .editor-de-projeto{
+    width: 19.76%;
+}
+
+.editor-de-codigo{
+    width: 54.65%;
+}

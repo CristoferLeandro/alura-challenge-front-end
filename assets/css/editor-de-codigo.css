@@ -1,0 +1,16 @@
+.editor-de-codigo__fundo{
+    background: #6BD1FF;
+    width: 100%;
+    border-radius: 8px;
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+.editor-de-codigo__elipses{
+    height: 12px;
+    background: var(--editor-de-codigo);
+    padding: 12px 12px 0 12px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}

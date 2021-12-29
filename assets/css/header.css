@@ -1,0 +1,49 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 32px;
+}
+
+.cabecalho__link-logo{
+    width: 19.76%;
+}
+
+.cabecalho__imagem-logo{
+    width: 145px;
+}
+
+.cabecalho__pesquisa{
+    width: 54.65%;
+    height: 56px;
+}
+.cabecalho__pesquisa input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: var(--cor-input);
+
+    padding: 0 14px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.cabecalho__usuario{
+    width: 19.76%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.cabecalho__usuario--foto{
+    border-radius: 100%;
+    width: 32px;
+    margin: 0 8px;
+}
+
+.cabecalho__usuario--nome{
+    line-height: 24px;
+}
