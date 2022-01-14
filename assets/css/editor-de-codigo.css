@@ -6,11 +6,34 @@
     box-sizing: border-box;
 }
 
-.editor-de-codigo__elipses{
-    height: 12px;
+.ide--black{
     background: var(--editor-de-codigo);
-    padding: 12px 12px 0 12px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.editor-de-codigo__elipses{
+    display: block;
+    height: 12px;
+    margin-bottom: 24px;
+}
+
+code{
+    display: block;
+    font-family: var(--fonte-codigo);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.46px;
+    /* min-height: 234px; */
+}
+
+.botao-highlight{
     width: 100%;
-    box-sizing: border-box;
-    text-align: left;
+    background: var(--cor-botao-highlight);
+    border: none;
+    padding: 16px;
+    text-align: center;
+    border-radius: 8px;
+    color: var(--fonte-geral);
+    margin-top: 32px;
 }

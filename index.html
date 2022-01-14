@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/corpo.css">
     <link rel="stylesheet" href="./assets/css/navegacao.css">
     <link rel="stylesheet" href="./assets/css/editor-de-codigo.css">
+    <link rel="stylesheet" href="./assets/css/editor-de-projeto.css">
     <title>Desafio Front-End Alura</title>
 </head>
 <body>
@@ -21,6 +22,7 @@
             <input type="text" placeholder="Busque por algo...">
         </form>
         <div class="cabecalho__usuario">
+            <button class="botao--cabecalho"><img src="./assets/img/header/botao-3-tracos.svg" alt=""></button>
             <img src="./assets/img//header/usuario-cristofer.jpg" alt="Cristofer" class="cabecalho__usuario--foto">
             <p class="cabecalho__usuario--nome">Cristofer</p>
         </div>
@@ -41,29 +43,31 @@
 
         <section class="editor-de-codigo">
             <div class="editor-de-codigo__fundo">
-                <img src="./assets/img/painel-central/mac_buttons.svg" alt="" class="editor-de-codigo__elipses">
-                <!-- <form action=""> -->
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                <!-- </form> -->
+                <div class="ide--black">
+                    <img src="./assets/img/painel-central/mac_buttons.svg" alt="" class="editor-de-codigo__elipses">
+                    <code>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                    </code>
+                </div> 
             </div>
-            <button>Visualizar com o highlight</button>
+            <button class="botao-highlight">Visualizar com o highlight</button>
         </section>
 
         <form action="" class="editor-de-projeto">
             <div class="seu-projeto">
                 <h3 class="seu-projeto__titulo">Seu projeto</h3>
-                <input type="text" placeholder="Nome do seu projeto">
-                <input type="text" placeholder="Descrição do seu projeto">
+                <input type="text" placeholder="Nome do seu projeto" class="editor-de-projeto__input">
+                <input type="text" placeholder="Descrição do seu projeto" class="editor-de-projeto__input">
             </div>
             <div class="personalizacao">
                 <h3 class="personalizacao__titulo">Personalização</h3>
-                <input list="languages">
+                <input list="languages" class="editor-de-projeto__input" placeholder="Linguagem">
                 <datalist id="languages">
                     <option value="HTML"></option>
                     <option value="CSS"></option>
                     <option value="JavaScript"></option>
                 </datalist>
-                <input type="color">
+                <input type="color" class="editor-de-projeto__input--color">
             </div>
             <input type="submit" value="Salvar projeto" class="salvar-projeto">
         </form>

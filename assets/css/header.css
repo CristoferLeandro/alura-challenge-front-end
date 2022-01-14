@@ -47,3 +47,35 @@
 .cabecalho__usuario--nome{
     line-height: 24px;
 }
+
+.botao--cabecalho{
+    display: none;
+}
+
+    @media screen and (max-width: 1024px){
+
+        .cabecalho{
+            gap: 40px;
+        }
+
+        .cabecalho__usuario--foto, .cabecalho__usuario--nome{
+            display: none;
+        }
+
+        .botao--cabecalho{
+            display: block;
+            border: none;
+            color: var(--fonte-geral);
+            background: var(--fundo);
+            padding: 0;
+            width: 20px;
+        }
+
+        .cabecalho__pesquisa{
+            width: 100%;
+        }
+
+        .cabecalho__usuario{
+            width: auto;
+        }
+    }

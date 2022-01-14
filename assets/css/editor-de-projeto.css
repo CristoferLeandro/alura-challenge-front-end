@@ -1,0 +1,38 @@
+.seu-projeto, .personalizacao{
+    margin-bottom: 24px;
+}
+
+.editor-de-projeto__input, .seu-projeto__titulo, .personalizacao__titulo{
+    margin-bottom: 16px;
+}
+
+.editor-de-projeto__input{
+    background: #FFFFFF29;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: none;
+    padding: 16px 14px;
+}
+
+.editor-de-projeto__input--color{
+    width: 100%;
+    border-radius: 4px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.editor-de-projeto__input::placeholder{
+    color: var(--fonte-geral);
+    opacity: 0.64;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.salvar-projeto{
+    width: 100%;
+    padding: 16px;
+    background: #5081FB;
+    border-radius: 8px;
+    border: none;
+}
