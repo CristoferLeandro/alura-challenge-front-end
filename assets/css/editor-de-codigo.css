@@ -37,3 +37,9 @@ code{
     color: var(--fonte-geral);
     margin-top: 32px;
 }
+
+    @media screen and (max-width: 1024px){
+        .botao-highlight{
+            min-width: 56px;
+        }
+    }

@@ -35,3 +35,9 @@
 .link__comunidade{
     opacity: 0.56;
 }
+
+    @media screen and (max-width: 1024px){
+        .navegacao{
+            display: none;
+        }
+    }

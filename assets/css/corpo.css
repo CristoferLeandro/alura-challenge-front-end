@@ -18,3 +18,18 @@
 .editor-de-codigo{
     width: 54.65%;
 }
+
+    @media screen and (max-width: 1024px){
+        .corpo{
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .editor-de-codigo{
+            width: 100%;
+        }
+
+        .editor-de-projeto{
+            width: 100%;
+        }
+    }

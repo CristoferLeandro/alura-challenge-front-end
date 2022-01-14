@@ -19,7 +19,8 @@
             <img src="./assets/img/header/logo.svg" alt="Alura Dev" class="cabecalho__imagem-logo">
         </a>
         <form action="" class="cabecalho__pesquisa">
-            <input type="text" placeholder="Busque por algo...">
+            <img src="./assets/img/header/lupa-mobile.svg" alt="" class="cabecalho__pesquisa--lupa">
+            <input type="text" placeholder="Busque por algo..." id="cabecalho__pesquisa--input">
         </form>
         <div class="cabecalho__usuario">
             <button class="botao--cabecalho"><img src="./assets/img/header/botao-3-tracos.svg" alt=""></button>
@@ -57,17 +58,19 @@
             <div class="seu-projeto">
                 <h3 class="seu-projeto__titulo">Seu projeto</h3>
                 <input type="text" placeholder="Nome do seu projeto" class="editor-de-projeto__input">
-                <input type="text" placeholder="Descrição do seu projeto" class="editor-de-projeto__input">
+                <input type="text" placeholder="Descrição do seu projeto" class="editor-de-projeto__input editor-de-projeto__input--descricao-de-projeto">
             </div>
             <div class="personalizacao">
                 <h3 class="personalizacao__titulo">Personalização</h3>
-                <input list="languages" class="editor-de-projeto__input" placeholder="Linguagem">
-                <datalist id="languages">
-                    <option value="HTML"></option>
-                    <option value="CSS"></option>
-                    <option value="JavaScript"></option>
-                </datalist>
-                <input type="color" class="editor-de-projeto__input--color">
+                <div class="personalizacao__caixa-mobile">
+                    <input list="languages" class="editor-de-projeto__input" placeholder="Linguagem">
+                    <datalist id="languages">
+                        <option value="HTML"></option>
+                        <option value="CSS"></option>
+                        <option value="JavaScript"></option>
+                    </datalist>
+                    <input type="color" class="editor-de-projeto__input--color">
+                </div>
             </div>
             <input type="submit" value="Salvar projeto" class="salvar-projeto">
         </form>

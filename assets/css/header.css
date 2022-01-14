@@ -79,3 +79,20 @@
             width: auto;
         }
     }
+
+        @media screen and (max-width: 768px){
+            #cabecalho__pesquisa--input{
+                overflow: hidden;
+                height: 0;
+            }
+
+            .cabecalho__pesquisa{
+                text-align: right;
+                align-items: center;
+            }
+
+            .cabecalho__pesquisa--lupa{
+                width: 20px;
+                margin: 18px 0;
+            }
+        }

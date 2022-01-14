@@ -36,3 +36,30 @@
     border-radius: 8px;
     border: none;
 }
+
+    @media screen and (max-width: 1024px){
+        .editor-de-projeto__input{
+            min-height: 56px;
+        }
+
+        .editor-de-projeto__input--descricao-de-projeto{
+            min-height: 80px;
+        }
+
+        .personalizacao__caixa-mobile{
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+        }
+
+        .editor-de-projeto__input--color, .salvar-projeto{
+            min-height: 56px;
+        }
+    }
+
+        @media screen and (max-width: 768px){
+            .personalizacao__caixa-mobile{
+                flex-direction: column;
+                gap: 0;
+            }
+        }
